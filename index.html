@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4b1836be02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="asserts/style.css">
+    <script src="asserts/script.js" defer></script>
+</head>
+<body>
+    <div class="search">
+        <div class="search-display">
+            <input type="text" class="input-text">
+        <button class="input-search"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button><br>
+        <button class="input-currentLocation"><i class="fa-solid fa-location-crosshairs" style="color: #ffffff; margin-right: 0.25em;"></i> Use Current location</button>
+        </div>
+        
+    </div>
+    <div class="currentWeather">
+        <h1 id="temp">14°C</h1>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" id="icon">
+        <p id="description">Thunderstorm</p>
+        <hr size="2" width="90%" color="white">
+        <p id="location"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i><span id="location-name">london</span></p>
+        <p id="date"><i class="fa-regular fa-calendar" style="color: #ffffff;"></i><span id="date-name">wednesday, 1 Mar</span></p>
+        <div class="other_details">
+            <div class="block">
+                <p class="name">Humidity</p>
+                <p class="value"><span id="humidity">63</span> %</p>
+            </div>
+            <div class="block">
+                <p class="name">pressure</p>
+                <p class="value"><span id="pressure">63</span> hPa</p>
+            </div>
+            <div class="block">
+                <p class="name">wind speed</p>
+                <p class="value"><span id="wind_speed">63</span> m/s</p>
+            </div>
+            <div class="block">
+                <p class="name">visibility</p>
+                <p class="value"><span id="visibility">63</span> km</p>
+            </div>
+            <div class="block">
+                <p class="name">feels like</p>
+                <p class="value"><span id="feels_like">63</span> °C</p>
+            </div>
+            <div class="block">
+                <p class="name">clouds</p>
+                <p class="value"><span id="clouds">63</span> %</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
